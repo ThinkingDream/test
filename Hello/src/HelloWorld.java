@@ -5,15 +5,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class HelloWorld {
     public static void main(String[] args) {
-
-        ListNode ln1=new ListNode(1);
-
-        ListNode ln2=new ListNode(3);
-        ListNode ln3=new ListNode(2);
-        ln1.next=ln2;ln2.next=ln3;
-        reversePrint(ln1);
-
-
+        System.out.println("hello world!");
     }
 
     public static int[] reversePrint(ListNode head) {
